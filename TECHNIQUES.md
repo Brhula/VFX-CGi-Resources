@@ -1,4 +1,4 @@
-## VFX and CGI REOSURCES   
+## VFX and CGI TECHNIQUES   
 
-### TEXTURES, MODELS and HDRI:   
+### PBR MATERIALS:   
 <ins>**https://pbr.one/index.html**</ins>: PBR Material creation guide. 
