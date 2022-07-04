@@ -9,7 +9,7 @@ Utilizar las intrucciones de "youtube-dl. tiene practicamente los mismos parqame
 Para hacer download de lo mejor posible en mp4 utilizar   
 `youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4' url`
 
-Si queremos bajar el mejor mp4 pero con restricción de resolución (en este caso 1080):
+Si queremos bajar el mejor mp4 pero con restricción de resolución (en este caso 1080):   
 `yt-dlp.exe -f bestvideo[ext=mp4][height<=?1080]+bestaudio[ext=m4a]/best url`
 
 ### Download from available formats
