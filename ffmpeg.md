@@ -1,6 +1,6 @@
 ### FFMPEG codificador de linea de comando   
    
-   
+[GUI tool to create complex FFmpeg filtergraphs](https://ffmpeg.guide/)   
    
 
 **Sintaxis basica:**   
