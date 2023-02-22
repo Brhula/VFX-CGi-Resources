@@ -51,3 +51,20 @@ sb0 mhtml 160x90         │                mhtml │ images                    
 Y entonces podemos bajar lo que queramos con el parametro `-f` y el ID correspondiente .   
 Por ejemplo `youtube-dl -f 22 http://www.youtube.com/watch?v=P9pzm5b6FFY`   
 
+### Cortar video y audio SIN recodificar   
+ 
+Use this to cut video from [start] for [duration]:
+
+`ffmpeg -ss [start] -i in.mp4 -t [duration] -c copy out.mp4`
+
+Use this to cut video from [start] to [end]:
+
+`ffmpeg -ss [start] -i in.mp4 -to [end] -c copy -copyts out.mp4`
+
+Here, the options mean the following:   
+    `-ss` specifies the start time, e.g. `00:01:23.000` or `83` (in seconds)   
+    `-t` specifies the duration of the clip (same format).   
+    Instead of `-t`, you can also use `-to`, which specifies the end time (needs -copyts if `-ss` is before `-i`, for faster seeking). Note that if you've used `-ss`, you have to subtract this from the `-to` timestamp. For example, if you cut with `-ss 3 -i in.mp4 -to 5`, the output will be five seconds long.   
+    `-c copy` copies the first video, audio, and subtitle bitstream from the input to the output file without re-encoding them. This won't harm the quality and make the command run within seconds.   
+
+For more info, see https://trac.ffmpeg.org/wiki/Seeking
