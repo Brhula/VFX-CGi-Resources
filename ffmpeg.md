@@ -9,7 +9,11 @@
 ffmpeg -i <infile> <outfile>
 ```   
 
-
+**Codificar para que Davinci Resolve lo importe sin problemas**   
+Se utiliza un codec mp4de video antiguo   
+```CMD
+ffmpeg -i .\untitled.avi -vcodec mpeg4 -acodec aac .\untitled.mp4
+```   
 
 **Codificar en mp4 a HD 1080 un fichero, con calidad:**   
 ```CMD
