@@ -4,7 +4,7 @@
 <ins>**https://www.remove.bg**</ins>:  REMOVE BACKGROUND on image (png and jpeg).   
 <ins>**https://www.adobe.com/express/feature/image/remove-background**</ins>:  ADOBE BACKGROUND REMOVER on image (png and jpeg).   
    
-<ins>**https://github.com/danielgatis/rembgd**</ins>:  REMBG // BACKGROUND REMOVER en maquina local.    
+<ins>**https://github.com/danielgatis/rembgd**</ins>:  REMBG // BACKGROUND REMOVER en maquina local. Funciona también con carpetas.     
 Instalar con ```pip install rembg[cli]``` y luego con el siguiente BACKGRONDRM.BAT (en Windows) se puede hacer "Drag and Drop":      
  ```
 @REM 1
