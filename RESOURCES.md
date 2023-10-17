@@ -2,6 +2,7 @@
 
 <ins>**https://www.cleanpng.com**</ins>:  PNG images without backgrounds.   
 <ins>**https://www.remove.bg**</ins>:  REMOVE BACKGROUND on image (png and jpeg).   
+<ins>**https://www.adobe.com/express/feature/image/remove-background**</ins>:  ADOBE BACKGROUND REMOVER on image (png and jpeg).
 
 
 
