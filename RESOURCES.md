@@ -1,6 +1,11 @@
-## VFX and CGI REOSURCES
+## TOOLBOX   
 
-En la simulación FLIP se utilizan " volumes" y "grid", por ello las colisiones funcionan mejor con "volumes".   
+<ins>**https://www.cleanpng.com**</ins>:  PNG images without backgrounds.   
+<ins>**https://www.remove.bg**</ins>:  REMOVE BACKGROUND on image (png and jpeg).   
+
+
+
+## VFX and CGI REOSURCES
 
 ### TEXTURES, MODELS and HDRI:   
 <ins>**https://polyhaven.com/**</ins>: Texturas, modelos y HDRs gratis. De mucha calidad.   
