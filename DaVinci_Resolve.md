@@ -20,8 +20,8 @@ Modo flexible para hace edición rápida. Según donde ponemos el cursor en el c
 
 [Video de Trim Edit Mode](https://www.youtube.com/watch?v=myG09-zY9dc)
    
-- RIPPLE EDITING : Extender o acortar la longitud de un clip, pero manteniendo los demás clips en su posición respectiva.   
-- ROLL TRIMMING : Ajusta la diración de dos clips al mismo tiempo. Ponemos el cursor en la "frontera"· entre dos clisp y movemos.   
-- SLIP EDITING : Movemos el punto de entrada y salida del clip sin cambiar duración (se "desliza" el footage). Pinchamos en medio del clip para esto.   
-- SLIDE EDITING : Movemos el clip haciendo que sean el clip anterior y posterior los que cambian de longitud.Pinchamos abajo en medio del clip
+- ```RIPPLE EDITING``` : Extender o acortar la longitud de un clip, pero manteniendo los demás clips en su posición respectiva.   
+- ```ROLL TRIMMING``` : Ajusta la diración de dos clips al mismo tiempo. Ponemos el cursor en la "frontera"· entre dos clisp y movemos.   
+- ```SLIP EDITING``` : Movemos el punto de entrada y salida del clip sin cambiar duración (se "desliza" el footage). Pinchamos en medio del clip para esto.   
+- ```SLIDE EDITING``` : Movemos el clip haciendo que sean el clip anterior y posterior los que cambian de longitud.Pinchamos abajo en medio del clip
   
