@@ -3,6 +3,7 @@
 
 ## EDIT TIPS   
 
+- Controles playback (típicos): Play ```  L  ```, Reverse ```  J  ```, Stop ```  K  ```, Ir al primer frame ```  ;  ```, Ir al último frame ```  '  ```       
 - ```   F12   ``` : Poner el clip del monitor arriba de todo del "timeline" (si es necesario añadiendo un "track" nuevo) .   
 - ```SHIFT+F10``` : "RIPPLE OVERWRITE", el clip seleccionado en el monitor para insertar "chafa" al que está debajo del punto en el timeline, pero ajustando los clips a la nueva duración.   
 
