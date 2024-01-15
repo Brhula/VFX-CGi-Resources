@@ -28,6 +28,7 @@ echo Processing complete: "%output%"
 <ins>**https://polyhaven.com/**</ins>: Texturas, modelos y HDRs gratis. De mucha calidad.   
 <ins>**https://ambientcg.com/**</ins>: Materiales y texturas gratis. De mucha calidad.   
 <ins>**https://www.openfootage.net/**</ins>: HDRi y footage. Hay bastante gratis (los de baja resolución)  
+<ins>**https://thebasemesh.com/**</ins>: Modelos básicos para empezar a modelar. Bastante cosa, no hay humanos.   
 
 <ins>**https://freepbr.com/**</ins>: Texturas PBR para fabricar shaders.
 
