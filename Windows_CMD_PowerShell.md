@@ -4,7 +4,17 @@
 ```powershell
 ls | %{Rename-Item $_ -NewName ("NEW-FILE-NAME-{0}.EXTENSION" -f $nr++)}
 ```
+### Random rename files in a folder
 
+Navegar hasta el directorio en `PowerShell` y ejecutar el script:
+
+```powershell
+Get-ChildItem | ForEach-Object {
+    $randomName = "name_"+[System.IO.Path]::GetRandomFileName()+$_.Extension
+    Rename-Item $_.FullName $randomName
+}
+```
+Le añadirá una "extension" random, aparte de la suya propia.
 
 ## CMD
 ### Renombrar y trimar
