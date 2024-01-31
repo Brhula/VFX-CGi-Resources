@@ -9,6 +9,8 @@ ls | %{Rename-Item $_ -NewName ("NEW-FILE-NAME-{0}.EXTENSION" -f $nr++)}
 ## CMD
 ### Renombrar y trimar
 
+https://www.windowscentral.com/how-rename-multiple-files-bulk-windows-10
+
 "*" : representa un "wildcard" de cualquier cosa.   
 "?" : representa un caracter del nombre original   
 
