@@ -13,7 +13,7 @@ ls | %{Rename-Item $_ -NewName ("NEW-FILE-NAME-{0}.EXTENSION" -f $nr++)}
 "?" : representa un caracter del nombre original   
 
 
-Renombramos todo lo que hay la carpeta actual con los primeros 8 digitos (se preserva extensión)    
+TRIMAR. Renombramos todo lo que hay la carpeta actual con los primeros 8 digitos (se preserva extensión)    
 ```CMD
 ren *.* ????????.*
 ```
