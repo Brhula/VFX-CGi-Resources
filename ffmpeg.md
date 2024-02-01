@@ -16,7 +16,7 @@ ffmpeg -i .\untitled.avi -vcodec mpeg4 -acodec aac .\untitled.mp4
 ```   
 
 **Codificar un mp4 con calidad**   
-donde pone `-cft` se indica la calidad: 0 es "lossless", 51 lo comprime a saco. Poner 20 o 16 para alta calidad.   
+donde pone `-crf` se indica la calidad: 0 es "lossless", 51 lo comprime a saco. Poner 20 o 16 para alta calidad.   
 
 ```CMD
 ffmpeg.exe -i "input file.mov" -c:v libx264 -crf 16 -c:a aac -strict -2 "output file.mp4"
