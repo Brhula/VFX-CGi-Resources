@@ -15,6 +15,13 @@ Se utiliza un codec mp4de video antiguo
 ffmpeg -i .\untitled.avi -vcodec mpeg4 -acodec aac .\untitled.mp4
 ```   
 
+**Codificar un mp4 con calidad**   
+donde pone `-cft` se indica la calidad: 0 es "lossless", 51 lo comprime a saco. Poner 20 o 16 para alta calidad.   
+
+```CMD
+ffmpeg.exe -i "input file.mov" -c:v libx264 -crf 16 -c:a aac -strict -2 "output file.mp4"
+```   
+
 **Codificar en mp4 a HD 1080 un fichero, con calidad:**   
 ```CMD
 ffmpeg -i <infile> -preset slow -b:a 128k -codec:v libx264 -pix_fmt yuv420p -b:v 4500k -minrate 4500k -maxrate 9000k -bufsize 9000k -vf scale=-1:1080 <outfile>.mp4
