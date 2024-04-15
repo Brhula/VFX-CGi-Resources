@@ -30,6 +30,11 @@ ffmpeg -i <infile> -preset slow -b:a 128k -codec:v libx264 -pix_fmt yuv420p -b:v
 **Recortar video del minuto 1 segundo 04, con duración de 11 segundos** 
 ```CMD
 ffmpeg -ss 00:01:04.0 -i <infile> -c copy -t 00:00:11.0 <outfile>
+```
+
+**Escalar a un ancho determinado manteniendo "aspect ratio"** 
+```CMD
+ffmpeg -i input.mp4 -vf scale=320:-1 output_320.mp4
 ```   
 
 ### Cortar video y audio SIN recodificar   
