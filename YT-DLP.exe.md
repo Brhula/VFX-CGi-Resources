@@ -49,5 +49,7 @@ sb0 mhtml 160x90         │                mhtml │ images                    
 ```
 
 Y entonces podemos bajar lo que queramos con el parametro `-f` y el ID correspondiente .   
-Por ejemplo `youtube-dl -f 22 http://www.youtube.com/watch?v=P9pzm5b6FFY`   
+- Por ejemplo `youtube-dl -f 22 http://www.youtube.com/watch?v=P9pzm5b6FFY`   
 
+Si queremos mezclar audio y video (porque en YT estan separados) lo hacemos poniendo un `+` entre formatos. Necesitamos que `FFMPEG` este instalado o en el mismo directorio que `YT-DPL`. 
+- Un ejemplo con lo de arriba seria `youtube-dl -f 136+139 http://www.youtube.com/watch?v=P9pzm5b6FFY` que pillara el video 132 y lo mezclara con el audio 139 en un unico mp4.
