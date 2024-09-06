@@ -7,7 +7,7 @@ Utilizar las intrucciones de "youtube-dl. tiene practicamente los mismos parqame
 ### Download mp4 BEST SETTINGS:   
 
 Para hacer download de lo mejor posible en mp4 utilizar   
-`youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4' url`
+`yt-dlp.exe -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4' url`
 
 Si queremos bajar el mejor mp4 pero con restricción de resolución (en este caso 1080):   
 `yt-dlp.exe -f bestvideo[ext=mp4][height<=?1080]+bestaudio[ext=m4a]/best url`
@@ -16,7 +16,7 @@ Si queremos bajar el mejor mp4 pero con restricción de resolución (en este cas
 
 Para saber que formatos hay disponibles utilizar el parámetro `-F` :
 ```
-youtube-dl -F 'http://www.youtube.com/watch?v=P9pzm5b6FFY' 
+yt-dlp.exe -F 'http://www.youtube.com/watch?v=P9pzm5b6FFY' 
 ```  
 Esto vomita un codigo como lo que sigue
 ```
@@ -49,7 +49,7 @@ sb0 mhtml 160x90         │                mhtml │ images                    
 ```
 
 Y entonces podemos bajar lo que queramos con el parametro `-f` y el ID correspondiente .   
-- Por ejemplo `youtube-dl -f 22 http://www.youtube.com/watch?v=P9pzm5b6FFY`   
+- Por ejemplo `yt-dlp.exe -f 22 http://www.youtube.com/watch?v=P9pzm5b6FFY`   
 
 Si queremos mezclar audio y video (porque en YT estan separados) lo hacemos poniendo un `+` entre formatos. Necesitamos que `FFMPEG` este instalado o en el mismo directorio que `YT-DPL`. 
-- Un ejemplo con lo de arriba seria `youtube-dl -f 136+139 http://www.youtube.com/watch?v=P9pzm5b6FFY` que pillara el video 132 y lo mezclara con el audio 139 en un unico mp4.
+- Un ejemplo con lo de arriba seria `yt-dlp.exe -f 136+139 http://www.youtube.com/watch?v=P9pzm5b6FFY` que pillara el video 132 y lo mezclara con el audio 139 en un unico mp4.
