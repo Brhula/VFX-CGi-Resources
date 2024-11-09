@@ -52,4 +52,4 @@ Y entonces podemos bajar lo que queramos con el parametro `-f` y el ID correspon
 - Por ejemplo `yt-dlp.exe -f 22 http://www.youtube.com/watch?v=P9pzm5b6FFY`   
 
 Si queremos mezclar audio y video (porque en YT estan separados) lo hacemos poniendo un `+` entre formatos. Necesitamos que `FFMPEG` este instalado o en el mismo directorio que `YT-DPL`. 
-- Un ejemplo con lo de arriba seria `yt-dlp.exe -f 136+233 http://www.youtube.com/watch?v=P9pzm5b6FFY` que pillara el video 132 y lo mezclara con el audio 139 en un unico mp4. Este ejemplo de mp4 lo pilla la tele Samsung HD vieja.
+- Un ejemplo con lo de arriba seria `yt-dlp.exe -f 136+233 http://www.youtube.com/watch?v=P9pzm5b6FFY` que pillara el video 136 y lo mezclara con el audio 233 en un unico mp4. Este ejemplo de mp4 lo pilla la tele Samsung HD vieja.
