@@ -54,3 +54,16 @@ Here, the options mean the following:
     `-c copy` copies the first video, audio, and subtitle bitstream from the input to the output file without re-encoding them. This won't harm the quality and make the command run within seconds.   
 
 For more info, see https://trac.ffmpeg.org/wiki/Seeking
+
+### VIDEO a GIF   
+
+En este caso las lineas `-ss 30 -t 3` es para epezar en el segundo 30 y convertir 3 segundos. 
+Otros paraetros son para contruir el Gif.
+
+Detalles en [link](https://superuser.com/questions/556029/how-do-i-convert-a-video-to-gif-using-ffmpeg-with-reasonable-quality)
+
+```CMD
+ffmpeg -ss 30 -t 3 -i input.mp4 \
+    -vf "fps=10,scale=320:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" \
+    -loop 0 output.gif
+```   
