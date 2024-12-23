@@ -16,6 +16,16 @@ Get-ChildItem | ForEach-Object {
 ```
 Le añadirá una "extension" random, aparte de la suya propia.
 
+### KILL a process
+
+```powershell
+# con un ID conocido
+Stop-Process -Id 41548
+# con un nombre conocido
+Stop-process -Name Chrome
+```
+
+
 ## CMD
 ### Renombrar y trimar
 
