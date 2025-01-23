@@ -14,3 +14,7 @@ VFX and CGi resources on the Internet
 # Planos y realizacion   
 
 [Eye Candy - Planos de referencia](https://eyecannndy.com/)
+
+# Windows <--> Linux/Mac   
+
+[Conversioón de Windows <--> Mac/Linux](https://universalpathconverter.com/)   
