@@ -4,7 +4,8 @@
 ## EDIT TIPS para el USER INTERFACE   
 
 - Controles playback (típicos): Play ```  L  ```, Reverse ```  J  ```, Stop ```  K  ```, Ir al primer frame ```  ;  ```, Ir al último frame ```  '  ```
-- Marcar entrada (Set Mark In) : ```  I  ```, Marcar salida (Set Mark Out) : ```  O  ```   
+- Marcar entrada (Set Mark In) : ```  I  ```, Marcar salida (Set Mark Out) : ```  O  ```
+- SHIFT del clip seleccionado 1 frame iquierda o derecha: ```  ,  ``` ```  .  ```
 - ```   F12   ``` : Poner el clip del monitor arriba de todo del "timeline" (si es necesario añadiendo un "track" nuevo) .   
 - ```SHIFT+F10``` : "RIPPLE OVERWRITE", el clip seleccionado en el monitor para insertar "chafa" al que está debajo del punto en el timeline, pero ajustando los clips a la nueva duración.   
 
