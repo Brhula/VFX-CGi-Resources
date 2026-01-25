@@ -8,7 +8,10 @@
 - SHIFT del clip seleccionado 1 frame iquierda o derecha: ```  ,  ``` ```  .  ```
 - ```   F12   ``` : Poner el clip del monitor arriba de todo del "timeline" (si es necesario añadiendo un "track" nuevo) .   
 - ```SHIFT+F10``` : "RIPPLE OVERWRITE", el clip seleccionado en el monitor para insertar "chafa" al que está debajo del punto en el timeline, pero ajustando los clips a la nueva duración.   
-
+_________________________   
+- Select ALL clips to the RIGHT (on same track) ```  Y  ``` // (on ALL tracks) ``` ALT + Y ```
+- Select ALL clips to the LEFT  (on same track) ```  CONTROL + Y  ``` // (on ALL tracks) ``` CONTROL + ALT + Y ```
+_________________________   
 - "Swap" selected clips to right: ```SHIFT+CONTROL+"."```   
 - "Swap" selected clips to left: ```SHIFT+CONTROL+","```   
 - "Swap" arbitrario: selecionamos el clip, y con ```SHIFT+CONTROL``` lo arrastramos por el timeline. Se irá actualizando empujando los otros clips para hacerle sitio    
