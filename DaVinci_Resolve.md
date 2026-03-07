@@ -1,5 +1,7 @@
 ## DaVinci Resolve   
 
+- FULL SCREEN :  “Workspace” > “Viewer Mode” > “Cinema Viewer” ( teclado `CONTROL + F`)    
+
 
 ## EDIT TIPS para el USER INTERFACE   
 
