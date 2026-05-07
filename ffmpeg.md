@@ -68,7 +68,7 @@ ffmpeg -ss 30 -t 3 -i input.mp4 \
     -loop 0 output.gif
 ```   
 
-### VIDEO a secuancia de PNGs      
+### VIDEO a secuencia de PNGs      
 
 ```
 ffmpeg -i input.mp4 output/%04d.png
