@@ -32,6 +32,10 @@ echo Processing complete: "%output%"
 
 <ins>**https://freepbr.com/**</ins>: Texturas PBR para fabricar shaders.
 
+### GAUSSIAN SPLATTING:    
+
+- https://github.com/PozzettiAndrea/ComfyUI-Sharp   
+
 ### FILM references:   
 
 **https://beta.flim.ai** : Busqueda de referencias en peliculas    
