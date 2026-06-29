@@ -1,7 +1,7 @@
 ## DaVinci Resolve   
 
 - FULL SCREEN :  “Workspace” > “Viewer Mode” > “Cinema Viewer” ( teclado `CONTROL + F`)    
-
+- AUDIO EN UN SOLO CANAL: en el "Media Pool" ir a los "clip attributes" y en la parte de Audio copiar un canal en el otro.    
 
 ## EDIT TIPS para el USER INTERFACE   
 
