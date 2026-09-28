@@ -14,6 +14,7 @@ VFX and CGi resources on the Internet
 # Planos y realizacion   
 
 [Eye Candy - Planos de referencia](https://eyecannndy.com/)
+[Shot Cafe - planos de pelicula, con buscador](https://shot.cafe/)
 
 # Windows <--> Linux/Mac   
 
