@@ -3,7 +3,7 @@
 [GUI tool to create complex FFmpeg filtergraphs](https://ffmpeg.guide/)   
    
 
-**Sintaxis basica:**   
+**Sintaxis básica:**   
    
 ```CMD
 ffmpeg -i <infile> <outfile>
@@ -37,7 +37,7 @@ ffmpeg -ss 00:01:04.0 -i <infile> -c copy -t 00:00:11.0 <outfile>
 ffmpeg -i input.mp4 -vf scale=320:-1 output_320.mp4
 ```   
 
-### Cortar video y audio SIN recodificar   
+### Cortar video y audio SIN re-codificar   
  
 Use this to cut video from [start] for [duration]:
 
@@ -57,8 +57,8 @@ For more info, see https://trac.ffmpeg.org/wiki/Seeking
 
 ### VIDEO a GIF   
 
-En este caso las lineas `-ss 30 -t 3` es para epezar en el segundo 30 y convertir 3 segundos. 
-Otros paraetros son para contruir el Gif.
+En este caso las lineas `-ss 30 -t 3` es para empezar en el segundo 30 y convertir 3 segundos. 
+Otros parametros son para construir el Gif.
 
 Detalles en [link](https://superuser.com/questions/556029/how-do-i-convert-a-video-to-gif-using-ffmpeg-with-reasonable-quality)
 
@@ -73,3 +73,11 @@ ffmpeg -ss 30 -t 3 -i input.mp4 \
 ```
 ffmpeg -i input.mp4 output/%04d.png
 ```
+
+### VIDEO extraer primer fotograma en  PNG     
+
+Si queremos sacar un frame distinto, tocar `-ss`, el parámetro `-vframes` es la duración en fotogramas. 
+```
+ ffmpeg -i Albert_test_1080.mp4 -ss 00:00:00 -vframes 1 frame_out.png
+```
+
